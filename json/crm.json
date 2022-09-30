@@ -1,0 +1,169 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "title": "Web-Dasturlash",
+      "nomi": "Standart",
+      "infor": "Standart kursda Full Stack yonalishda O'qiysiz 9 oyda 3 marta 2 soatdan dars",
+      "money": "700 00 ming"
+    },
+    {
+      "id": 2,
+      "title": "Smm-Foundation",
+      "nomi": "BootCamp",
+      "infor": "Standart kursda Full Stack yonalishda O'qiysiz 9 oyda 3 marta 2 soatdan dars",
+      "money": "500 000 ming"
+    },
+    {
+      "title": "AfterEfects",
+      "nomi": "Standart",
+      "infor": "3 kun",
+      "money": "100 00 ming",
+      "id": 3
+    },
+    {
+      "title": "Pro-Pro",
+      "nomi": "Standart",
+      "infor": "Standart kursda Full Stack yonalishda O'qiysiz 9 oyda 3 marta 2 soatdan dars",
+      "money": "600 000 ming",
+      "id": 4
+    },
+    {
+      "title": "Primer-pro",
+      "nomi": "Bootcamp",
+      "infor": "Standart kursda Full Stack yonalishda O'qiysiz 9 oyda 3 marta 2 soatdan dars",
+      "money": "100 000 000",
+      "id": 5
+    },
+    {
+      "title": "Mantaj-Pro",
+      "nomi": "Standart",
+      "infor": "Standart kursda Full Stack yonalishda O'qiysiz 9 oyda 3 marta 2 soatdan dars",
+      "money": "600 000 ming",
+      "id": 6
+    },
+    {
+      "title": "pro-pro",
+      "nomi": "Bootcamp",
+      "infor": "Standart kursda Full Stack yonalishda O'qiysiz 9 oyda 3 marta 2 soatdan dars",
+      "money": "120 00 00 ",
+      "id": 7
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Toshmat",
+      "surename": "Toshmatov",
+      "age": 20,
+      "number": "+998 90 000 01 01",
+      "book": "Web-Dasturlash",
+      "password": "qwert119"
+    },
+    {
+      "id": 2,
+      "name": "Eshmat",
+      "surename": "Eshmatov",
+      "age": 30,
+      "number": "+998 90 111 01 01",
+      "book": "Smm",
+      "password": "123456789"
+    },
+    {
+      "name": "Karim",
+      "surename": "Karimov",
+      "age": 40,
+      "number": "+998 90 222 01 01",
+      "book": "Smm-Pro",
+      "password": "pidor",
+      "id": 3
+    },
+    {
+      "name": "Krim",
+      "surename": "Kaimov",
+      "age": 80,
+      "number": "+998 90 333 01 01",
+      "book": "Smm-P",
+      "password": "pidor",
+      "id": 4
+    },
+    {
+      "name": "Abu",
+      "surename": "Abuev",
+      "age": "29",
+      "number": "+998 90 900 90 90",
+      "book": "Smm",
+      "id": 5
+    },
+    {
+      "name": "kimdur",
+      "surename": "kidurivich",
+      "age": "40",
+      "number": "+998 99 999 99 99",
+      "book": "Web-Dasturlash",
+      "id": 6
+    },
+    {
+      "name": "Lox",
+      "surename": "Loxvich",
+      "age": "23",
+      "number": "+998 98 988 99 99",
+      "book": "pro-pro",
+      "id": 7
+    }
+  ],
+  "group": [
+    {
+      "id": 1,
+      "groupname": "Item-1",
+      "groupway": "Standart",
+      "groupwaay": "web-Dasturlash",
+      "groupteacher": "Abduuloh",
+      "groupdata": "10:10:10"
+    },
+    {
+      "id": 2,
+      "groupname": "Item-2",
+      "groupway": "BootCamp",
+      "groupwaay": "Smm-Pro",
+      "groupteacher": "Ramziddin",
+      "groupdata": "10:10:10"
+    },
+    {
+      "groupname": "item-4",
+      "groupway": "Standart",
+      "groupwaay": "Web-Dasturlash",
+      "groupteacher": "Toshmat",
+      "groupdata": "10:10:10",
+      "id": 3
+    },
+    {
+      "groupname": "Item-5",
+      "groupway": "Standart",
+      "groupwaay": "Web-Dasturlash",
+      "groupteacher": "Toshmat",
+      "groupdata": "2022-09-15T15:25",
+      "id": 4
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Abdulloh",
+      "surename": "Obidjonov",
+      "age": "13",
+      "Sgroup": "Item-2",
+      "Sway": "web-Dasturlash",
+      "Snumber": "90 000 00 00"
+    },
+    {
+      "name": "Toshmat",
+      "surename": "Toshmatov",
+      "age": "20",
+      "Sgroup": "item-4",
+      "Sway": "Primer-pro",
+      "Snumber": "90 999 99 99",
+      "id": 2
+    }
+  ]
+}

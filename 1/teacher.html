@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Teacher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/saidbar/saidbar.css">
+    <link rel="stylesheet" href="./css/teacher/teach.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul class="item">
+                <li>
+                    <a href="index.html">
+                        <span class="icon">
+                            <img src="./img/loo3.jpg" width="60px" height="60px" alt="">
+                        </span>
+                        <span>Item Education Manner</span>
+                    </a>
+                </li>
+                <template id="template">
+                    <li id="item">
+                        <a id="atribud" href="">
+                            <span id="iconSpan">
+                                <ion-icon id="icon"></ion-icon>
+                            </span>
+                            <span id="title"></span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="tobar">
+                <div class="toogle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+            <h2 class="teh2" >Teachers :</h2>
+            <div class="admintitl ox">
+                <div class="mega">
+                    <div class="first">
+                        <h3>Name</h3>
+                        <h3>Surename</h3>
+                        <h3>Age</h3>
+                        <h3>Number</h3>
+                        <button class="buttonadd">Add Teacher</button>
+                    </div>
+                    <div class="second infors">
+                        <template id="templateT">
+                            <div class="ing">
+                                <h3 class="name namee">Toshmat</h3>
+                                <h3 class="surename sure">Eshmatov</h3>
+                                <h3 class="age agee">20</h3>
+                                <h3 class="number numm">+998 99 999 99 99</h3>
+                                <h3 class="way ">WEB-dasturlash</h3>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                <div class="infModall">
+                    <h2 class="h2h2">O'qituvchi qo'shish</h2>
+                    <button id="inconbut">
+                        <ion-icon class="iconDel" name="close-outline"></ion-icon>
+                    </button>
+                    <form id="from">
+                        <div class="df">
+                            <div class="inputt">
+                                <h3>Name</h3>
+                                <input type="text" class="inputName" placeholder="Your name...">
+                            </div>
+                            <div class="innp">
+                                <h3>Surename</h3>
+                                <input type="text" class="inputSureName" placeholder="Your Surename...">
+                            </div>
+                        </div>
+                        <div class="dfl">
+                            <div class="inputts">
+                                <h3>Age</h3>
+                                <input type="number" class="inputAge" placeholder="Your age...">
+                            </div>
+                            <div class="innps">
+                                <h3>Number</h3>
+                                <input type="text" class="inputNumber" placeholder="Your Number...">
+                            </div>
+                        </div>
+                        <div class="sele">
+                            <h3>Way</h3>
+                            <select id="selectWay">
+                                <template id="templateSelect">
+                                    <option class="opp"></option>
+                                </template>
+                            </select>
+                        </div>
+                        <button id="addbut">Add</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="./data.js"></script>
+    <script src="./js/saidbar/main.js"></script>
+    <script src="./js/teacher/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionucons/ionicons.js"></script>
+</body>
+
+</html>

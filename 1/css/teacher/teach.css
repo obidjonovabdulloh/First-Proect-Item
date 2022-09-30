@@ -1,0 +1,210 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+:root {
+    --color--: #fff;
+    --color1--: #0093AF;
+    --color2--: #008ba0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+.tabe {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 50px;
+    border-collapse: collapse;
+    /* border-radius: 50%; */
+    position: absolute;
+}
+
+.tabe thead tr th {
+    padding: 0px 40px 0px 40px;
+    font-size: 15px;
+}
+
+.tabe tbody tr td {
+    padding: 0 40px 0 40px;
+    font-size: 15px;
+}
+.buttonadd{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid var(--color1--);
+    color: var(--color1--);
+    transition: .65s;
+    font-weight: bold;
+}
+.buttonadd:hover{
+    background-color: var(--color1--);
+    color: white;
+}
+
+.tdd {
+    border: 2px solid var(--color1--) ;  
+    font-weight: bold;
+    font-size: 15px;
+}
+.infModall {
+    transform: translateY(-10000px);
+}
+.infModal{
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    transform: translateY(80px);
+    left: 0%;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid var(--color1--);
+    border-radius: 10px;
+    transition: .65s;
+}
+.infModal .h2h2 {
+    padding: 10px 0 30px 0px;
+}
+.infModal .df{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.df h3 {
+    padding: 10px 0 10px 0px;
+}
+.df input {
+    font-size: 18px;
+    border: 1px solid var(--color2--);
+    border-radius: 20px;
+    padding: 10px 60px 10px 20px;
+    transition: .65s;
+    outline: none;
+}
+.df input:focus {
+    box-shadow: 0px 0px 40px 0px var(--color1--);
+}
+
+
+
+.infModal .dfl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.dfl h3 {
+    padding: 10px 0 10px 0px;
+}
+.dfl input {
+    font-size: 18px;
+    border: 1px solid var(--color2--);
+    border-radius: 20px;
+    padding: 10px 60px 10px 20px;
+    transition: .65s;
+    outline: none;
+}
+.dfl input:focus {
+    box-shadow: 0px 0px 40px 0px var(--color1--);
+}
+.sele {
+    padding-top: 30px;
+}
+.sele select {
+    margin-top: 10px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: 1px solid var(--color1--);
+    font-weight: bold;
+}
+#addbut {
+    border: 1px solid var(--color1--);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: var(--color1--);
+    transition: .65s;
+}
+#addbut:hover{
+    background-color: var(--color1--);
+    color: white;
+}
+#inconbut{
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    position: absolute  ;
+    top: 2%;
+    left: 95%;
+    cursor: pointer;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.ing{
+    height: 80px;
+    width: 1000px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 0px var(--color1--);
+    background-color: var(--color1--);
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.name{
+    position: absolute;
+    top: 35%;
+    left: 5.2%;
+}
+.surename {
+    position: absolute;
+    left: 24%;
+    top: 35%;
+}
+.age{
+    position: absolute;
+    left: 46.5%;
+    top: 35%;
+}
+.number {
+    position: absolute;
+    left: 58%;
+    top: 35%;
+}
+.way {
+    position: absolute;
+    left: 80%;
+    top: 35%;
+}
+.mega{
+    position: absolute;
+    top: 10%;
+    /* border: 1px solid black; */
+}
+.toogle{
+    cursor: pointer;
+}
+.teh2 {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 30px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/saidbar/saidbar.css">
+    <link rel="stylesheet" href="./css/course/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navigation">
+            <ul class="item">
+                <li>
+                    <a href="index.html">
+                        <span class="icon">
+                            <img src="./img/loo3.jpg" width="60px" height="60px" alt="">
+                        </span>
+                        <span>Item Education Manner</span>
+                    </a>
+                </li>
+                <template id="template">
+                    <li id="item">
+                        <a id="atribud" href="">
+                            <span id="iconSpan">
+                                <ion-icon id="icon"></ion-icon>
+                            </span>
+                            <span id="title"></span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="tobar">
+                <div class="toogle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="main_title">
+                <div class="kurss">
+                    <h2 class="kurs">Kurslar : </h2>
+                    <button id="buttonAdd">Kurs Qo'shish</button>
+                </div>
+                <div class="course_title">
+                </div>
+            </div>
+            <template id="templateCourse">
+                <div class="hp">
+                    <div class="course_text">
+                        <h2 id="texth2"></h2>
+                        <h3 id="texth3"></h3>
+                    </div>
+                    <p id="subtext"></p>
+                    <div class="texts">
+                        <h3 id="texth3text"></h3>
+                    </div>
+                </div>
+            </template>
+
+            <div class="addModall">
+                <h2 class="kirs">Kurs Qo'shish</h2>
+                <button id="icon"><ion-icon name="close-outline"></ion-icon></button>
+                <form class="firm">
+                    <div class="buttons">
+                        <div class="lop">
+                            <div class="inputss">
+                                <h3>Kurs nomi</h3>
+                                <input id="nomi" type="text" placeholder="kurs nomi...">
+                            </div>
+                            <div class="inputss1">
+                                <h3>Kurs narxi</h3>
+                                <input id="narxi" type="text" placeholder="kurs narxi...">
+                            </div>
+                        </div>
+                        <div class="adss">
+                            <div class="infor">
+                                <h3>Kurs Haqida Ma'lumot</h3>
+                                <input id="inn" type="text" placeholder="Ma'lumot...">
+                            </div>
+                            <div class="selectss">
+                                <h3>Urivin</h3>
+                                <select id="sele">
+                                    <option value="Standart">Stadart</option>
+                                    <option value="Bootcamp">Bootcamp</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button>add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./data.js"></script>
+    <script src="./js/course/main.js"></script>
+    <script src="./js/saidbar/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionucons/ionicons.js"></script>
+</body>
+
+</html>

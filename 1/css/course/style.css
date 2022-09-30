@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --color--: #fff;
+    --color1--: #0093AF;
+    --color2--: #008ba0;
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.main_title{
+    padding: 50px;
+}
+.kurs{
+    margin-top: 50px;
+}
+.course_title{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.hp{
+    margin-top: 10px;
+    border: 1px solid var(--color1--);
+    background-color: var(--color1--);
+    color: white;
+    width: 270px;
+    padding: 20px;
+
+    border-radius: 10px;
+    height: 190px;
+}
+
+.course_title .course_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.course_title .course_text h2,h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.course_text h3 {
+    font-size: 14px;
+    background-color: white;
+    color: var(--color1--);
+    padding: 5px;
+    border-radius: 20px;
+}
+.course_text h2 {
+    font-size: 20px;
+    
+}
+.course_title p {
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+
+.kurss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.kurs {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.kurss button {
+    border: 1px solid var(--color1--);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color1--);
+    transition: .65s;
+}
+.kurss button:hover {
+    background-color: var(--color1--);
+    color: white;
+}
+.addModall {
+    transform: translateY(-9000px);
+}
+.addModal{
+    border: 1px solid var(--color1--);
+    padding: 20px;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px var(--color1--);
+    position: absolute;
+    top: 10%;
+    background-color: white;
+    padding-bottom: 70px;
+    transition: .65s    ;
+    transform: translateY(70px);
+}
+.addModal .kirs {
+    text-align: center;
+    padding: 10px 0 20px 0px;
+}
+.addModal{
+    text-align: center;
+}
+.addModal .firm .adss{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0 30px 0px;
+}
+.addModal .firm .lop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lop h3 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 0 10px 0px;
+}
+.lop input {
+    border: 1px solid var(--color1--);
+    padding: 10px 80px 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 17px;
+    transition: .65s;
+}
+.lop input:focus {
+    box-shadow: 0px 0px 40px 0px var(--color1--);
+}
+.adss input {
+    border: 1px solid var(--color1--);
+    padding: 10px 80px 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 17px;
+    transition: .65s;
+}
+.adss input:focus {
+    box-shadow: 0px 0px 40px 0px var(--color1--);
+}
+.adss select {
+    border: 1px solid var(--color1--);
+    padding: 10px 200px 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 17px;
+    transition: .65s;
+}
+.firm button {
+    padding: 10px 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 1px solid var(--color1--);
+    border-radius: 20px;
+    background-color: white;
+    font-size: 17px;
+    transition: .65s;
+}
+.firm button:hover {
+    background-color: var(--color1--);
+    color: white;
+}
+.addModal #icon  {
+    position: absolute;
+    left: 94%;
+    top: 2%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 40px;
+}

@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color--: #fff;
+    --color1--: #0093AF;
+    --color2--: #008ba0;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.h2in {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.num_infors {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.num_infors .length_students {
+    border: 1px solid var(--color1--);
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px 0px var(--color1--);
+    color: var(--color1--);
+}
+
+.num_infors .length_teacher {
+    border: 1px solid var(--color1--);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px 0px var(--color1--);
+    color: var(--color1--);
+}
+
+.num_infors .length_group {
+    border: 1px solid var(--color1--);
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px 0px var(--color1--);
+    color: var(--color1--);
+}
+
+.num_infors .length_course {
+    border: 1px solid var(--color1--);
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px 0px var(--color1--);
+    color: var(--color1--);
+}
+
+.length_students ion-icon {
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.length_teacher ion-icon {
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.length_group ion-icon {
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.length_course ion-icon {
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.length_students .length h3 {
+    font-size: 30px;
+}
+
+.length_students .length p {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.length_teacher .length h3 {
+    font-size: 30px;
+}
+
+.length_teacher .length p {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.length_group .length h3 {
+    font-size: 30px;
+}
+
+.length_group .length p {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.length_course .length h3 {
+    font-size: 30px;
+}
+
+.length_course .length p {
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.two_list{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.listofstudents{
+    border: 1px solid var(--color1--);
+    padding: 10px;
+    box-shadow: 0px 0px 20px 0px var(--color1--);
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 10px;
+}
+.adda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+.adda h2 {
+    font-size: 19px;
+}
+.adda button {
+    border: 1px solid var(--color1--);
+    color: var(--color1--);
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: .65s;
+}
+.adda button:hover {
+    background-color: var(--color1--);
+    color: white;
+}
+.infors_s {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.infors_s h3 {
+    font-size: 18px;
+}
+.innfors_s {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid var(--color1--);
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px var(--color1--);
+    color: var(--color1--);
+}
+.number_i {
+    position: absolute;
+    left: 81%;
+}
+.group_i {
+    position: absolute;
+    left: 61.8%;
+}
+.age_i {
+    position: absolute;
+    left: 44.5%;
+}
+.name_i {
+    position: absolute;
+    left: 5.5%;
+}
+.listoftechers {
+    border: 1px solid var(--color1--);
+    padding: 10px;
+    box-shadow: 0px 0px 20px 0px var(--color1--);
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 27%;
+    margin-left: 10px;
+}
+.tech_i{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid var(--color1--);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px var(--color1--);
+    color: var(--color1--);
+}
+.infors_teach{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.sure{
+    position: absolute;
+    left: 18%;
+}
+#surenamee{
+    padding: 0 5px 0 5px;
+}
